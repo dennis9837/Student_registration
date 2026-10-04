@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="form-container">
+            <h2>Student Registration Form</h2>
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name"name="name" placeholder="enter your name" required>
+                </div>
+                <div class="form-group">
+                <label for="registration-number">Registration Number:</label>
+                <input type="registration-number" id="registration-number" name="registration-number" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Confirm password:</label>
+                    <input type="password" id="confirm-password" name="confirm-password">
+                </div>
+                <div class="form-group">
+                    <label>Year Of Study</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="year" value="year1">Year1</label>
+                        <label><input type="radio" name="year" value="year2">Year2</label>
+                        <label><input type="radio" name="year" value="year3">Year3</label>
+                        <label><input type="radio" name="year" value="year4">Year4</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="course">Course:</label>
+                    <select name="course" id="course">
+                    <option value=""disabled selected>Select Your Course</option>
+                    <option value="Computer-science">Computer-science</option>
+                    <option value="Applied-Computer-science">Applied-Computer-science</option>
+                    <option value="Software-engineering">Software-engineering</option>
+                    <option value="Information-technology">Information-technology</option>
+                    <option value="Computer-security">Computer-security</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Register</button>
+                </div>
+            </form>
+            <p>
+                Already have an account?
+                <a href="login.html">Log in here</a>
+            </p>
+        </div>
+    </div>
+    
+</body>
+</html>
